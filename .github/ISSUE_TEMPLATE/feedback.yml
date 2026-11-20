@@ -1,0 +1,22 @@
+name: Reportar un error o sugerir una mejora · Report a bug or suggest an improvement
+description: Algo no funciona, una nota no se detecta bien o tiene una idea para el afinador. Something doesn't work, a note isn't detected well or you have an idea for the tuner.
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: ¿Qué desea contarnos? · What would you like to tell us?
+      description: Si una nota no se detecta bien, indique cuál y si estaba muy lejos o cerca de afinar. If a note isn't detected well, say which one and whether it was far from or close to in tune.
+    validations:
+      required: true
+  - type: input
+    id: instrument
+    attributes:
+      label: Instrumento · Instrument
+      description: Ayuda a reproducir problemas del modo micrófono. It helps reproduce problems in microphone mode.
+      placeholder: Guitarra, violín, voz · Guitar, violin, voice
+  - type: input
+    id: device
+    attributes:
+      label: Dispositivo y navegador o app · Device and browser or app
+      description: Si algo no funciona, nos ayuda a reproducirlo. If something doesn't work, it helps us reproduce it.
+      placeholder: Pixel 8, app de Android · Pixel 8, Android app

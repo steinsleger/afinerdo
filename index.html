@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="author" content="Adrián Steinsleger" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#e6e4df" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141413" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <title>Afinerdo</title>
+    <script>
+      try {
+        const theme = localStorage.getItem('afinerdo:theme')
+        if (theme === 'light' || theme === 'dark') {
+          document.documentElement.dataset.theme = theme
+          const [light, dark] = document.querySelectorAll('meta[name="theme-color"]')
+          light.content = dark.content = (theme === 'light' ? light : dark).content
+        }
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

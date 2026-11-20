@@ -1,0 +1,50 @@
+{
+  "name": "afinerdo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Un afinador para nerds: cromático, para cualquier instrumento, con nota de referencia o micrófono. A tuner for nerds: chromatic, for any instrument, with a reference note or the microphone.",
+  "license": "CC-BY-NC-4.0",
+  "author": {
+    "name": "Adrián Steinsleger",
+    "email": "asteins@gmail.com",
+    "url": "https://www.linkedin.com/in/adriansteinsleger/"
+  },
+  "contributors": [
+    "Claude Opus 5.5 (Anthropic)"
+  ],
+  "homepage": "https://afinerdo.com.ar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steinsleger/afinerdo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/steinsleger/afinerdo/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "pnpm@12.17.0+sha512.b8d223ebec04b580a89ed206daa71d1bccb6a1ee1d52efa95cc3b0db75271561df8f0d8e2c43add39c5ec08018af7a8a95108e7090f95a29f88727b7a40fd53d",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && node scripts/prerender.mjs",
+    "preview": "vite preview",
+    "test": "node --test \"src/*.test.ts\"",
+    "android": "pnpm build && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.2",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
