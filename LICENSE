@@ -32,6 +32,7 @@ The web app and the Android app include the following software, each under its o
 
 - React, React DOM and scheduler. Copyright (c) Meta Platforms, Inc. and affiliates. MIT.
 - Capacitor. Copyright (c) 2017-present Drifty Co. MIT.
+- Vercel Analytics, which only runs on the website. Copyright (c) 2026 Vercel, Inc. MIT.
 - Martian Mono. Copyright 2021 The Martian Mono Project Authors (https://github.com/evilmartians/mono). SIL Open Font License 1.1.
 - Noto Sans Mono, only its sharp and flat signs. Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic). SIL Open Font License 1.1.
 

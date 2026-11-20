@@ -2,11 +2,11 @@
 
 [Español](#español) · [English](#english)
 
-Última actualización / Last updated: 2026-11-18
+Última actualización / Last updated: 2026-11-20
 
 ## Español
 
-Afinerdo no recopila, no guarda y no comparte datos personales. No tiene cuentas de usuario, publicidad, analíticas ni cookies.
+Afinerdo no recopila, no guarda y no comparte datos personales. No tiene cuentas de usuario, publicidad ni cookies de terceros.
 
 ### Micrófono
 
@@ -22,6 +22,12 @@ El tema y la frecuencia de La4 que usted elija se guardan en el almacenamiento l
 
 La versión web se sirve desde [Vercel](https://vercel.com). Como cualquier servidor web, Vercel puede registrar datos técnicos de cada conexión, como la dirección IP y el navegador, según su [política de privacidad](https://vercel.com/legal/privacy-policy). Afinerdo no usa esos datos.
 
+### Estadísticas de visitas
+
+Para saber cuántas personas lo usan, el sitio web cuenta las visitas con [Vercel Web Analytics](https://vercel.com/docs/analytics/privacy-policy). No usa cookies de terceros: identifica cada visita con un código que se calcula a partir de la conexión y se descarta a las 24 horas, así que no permite seguir a nadie de un día a otro ni entre sitios. Registra la página visitada, el sitio de origen, la ubicación geográfica, el navegador, el sistema operativo y el tipo de dispositivo, de forma anónima y sin vincularlos con ninguna persona ni dirección IP.
+
+La app de Android no cuenta visitas ni envía ningún dato.
+
 ### Enlaces externos
 
 Los enlaces a GitHub, LinkedIn, YouTube y al correo electrónico se abren fuera de la app y se rigen por las políticas de cada servicio.
@@ -32,7 +38,7 @@ Si tiene preguntas, escriba a [asteins@gmail.com](mailto:asteins@gmail.com).
 
 ## English
 
-Nerd Tuner does not collect, store or share personal data. It has no user accounts, ads, analytics or cookies.
+Nerd Tuner does not collect, store or share personal data. It has no user accounts, ads or third-party cookies.
 
 ### Microphone
 
@@ -47,6 +53,12 @@ The theme and A4 frequency you choose are kept in the browser's or the app's loc
 ### Website
 
 The web version is served by [Vercel](https://vercel.com). Like any web server, Vercel may log technical data about each connection, such as the IP address and browser, under its [privacy policy](https://vercel.com/legal/privacy-policy). Nerd Tuner does not use that data.
+
+### Visit statistics
+
+To know how many people use it, the website counts visits with [Vercel Web Analytics](https://vercel.com/docs/analytics/privacy-policy). It uses no third-party cookies: each visit is identified by a code worked out from the connection and discarded after 24 hours, so nobody can be followed from one day to the next or across sites. It records the page visited, the referring site, the geographic location, the browser, the operating system and the device type, anonymously and without tying them to any person or IP address.
+
+The Android app counts no visits and sends no data.
 
 ### External links
 

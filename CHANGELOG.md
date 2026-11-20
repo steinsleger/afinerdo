@@ -21,3 +21,4 @@ First version, by Adrián Steinsleger, developed with Claude Opus 5.5.
 - Settings with the theme, credits, feedback links, license, source code and privacy policy.
 - A layout that fits any phone without scrolling, upright or on its side, as well as tablets and desktops.
 - Android app built with Capacitor, fully offline, whose only permission is the microphone.
+- Anonymous visit counts on the website with Vercel Web Analytics, without third-party cookies. The Android app sends nothing.

@@ -1,3 +1,5 @@
+import { Capacitor } from '@capacitor/core'
+import { inject } from '@vercel/analytics'
 import { StrictMode } from 'react'
 import { createRoot, hydrateRoot } from 'react-dom/client'
 import { App } from './App.tsx'
@@ -7,6 +9,9 @@ import './styles.css'
 const root = document.getElementById('root')!
 const language = languageOfPath(location.pathname)
 document.documentElement.lang = language
+
+// Visits are counted on the website only. The Android app sends nothing, and has no internet permission anyway.
+if (!Capacitor.isNativePlatform()) inject()
 
 const app = (
   <StrictMode>

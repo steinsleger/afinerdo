@@ -71,7 +71,7 @@ Para colaborar con código, consulte [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Privacidad
 
-El audio del micrófono se analiza en su dispositivo y no se graba ni se envía. Los detalles están en [PRIVACY.md](PRIVACY.md).
+El audio del micrófono se analiza en su dispositivo y no se graba ni se envía. El sitio web cuenta las visitas de forma anónima con [Vercel Web Analytics](https://vercel.com/docs/analytics), sin cookies de terceros; la app de Android no envía ningún dato. Los detalles están en [PRIVACY.md](PRIVACY.md).
 
 ### Créditos
 
@@ -150,7 +150,7 @@ To contribute code, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Privacy
 
-Microphone audio is analyzed on your device and is never recorded or sent anywhere. See [PRIVACY.md](PRIVACY.md) for the details.
+Microphone audio is analyzed on your device and is never recorded or sent anywhere. The website counts visits anonymously with [Vercel Web Analytics](https://vercel.com/docs/analytics), without third-party cookies; the Android app sends no data. See [PRIVACY.md](PRIVACY.md) for the details.
 
 ### Credits
 
