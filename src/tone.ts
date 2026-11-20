@@ -26,9 +26,16 @@ export function unlockAudio() {
   void audioContext().resume()
 }
 
-/** Lets the audio output sleep while the page is hidden. The next `unlockAudio()` wakes it. */
+const FADE_MS = RAMP_SECONDS * 4 * 1000
+
+/** Fades the tone out and lets the audio output sleep while the page is hidden. The next `unlockAudio()` wakes it. */
 export function suspendAudio() {
-  void context?.suspend()
+  stopTone()
+  // Suspending stops the output at once, which clicks mid-tone, so it waits for the fade. If the page came back
+  // in the meantime, the audio stays awake.
+  setTimeout(() => {
+    if (document.hidden) void context?.suspend()
+  }, FADE_MS)
 }
 
 // A sine keeps its phase when its frequency jumps, so changing notes needs no fade.
